@@ -1,0 +1,285 @@
+<!-- ✅ START: HAFSA'S PERFECTED PORTFOLIO + CONTACT FORM + SECURITY AUDIT -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hafsa Noman | Cybersecurity Portfolio</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Courier New', monospace;
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+    }
+    header {
+      background-color: #111;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,255,255,0.4);
+    }
+    h1 {
+      font-size: 3rem;
+      color: #00fff7;
+      text-shadow: 0 0 10px #00fff7;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #00e5ff;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #00fff7;
+      padding-bottom: 8px;
+    }
+    h3 {
+      margin-top: 20px;
+      color: #00d4ff;
+    }
+    .tagline {
+      font-size: 1rem;
+      color: #00fff7;
+      margin-top: 15px;
+      animation: floatTagline 3s ease-in-out infinite;
+    }
+    @keyframes floatTagline {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+    .section {
+      padding: 60px 25px;
+      max-width: 900px;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease-in-out;
+    }
+    .section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .glow-btn {
+      display: inline-block;
+      padding: 12px 24px;
+      margin-top: 20px;
+      background-color: #00fff7;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px #00fff7;
+      animation: pulseGlow 2s infinite;
+    }
+    .glow-btn:hover {
+      background-color: #00d1c1;
+      transform: scale(1.07);
+      box-shadow: 0 0 25px #00fff7, 0 0 35px #00fff7;
+    }
+    a {
+      color: #00fff7;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+    a:hover {
+      text-shadow: 0 0 10px #00fff7;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 25px;
+      margin-top: 10px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      margin-top: 50px;
+      font-size: 0.9rem;
+    }
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #00fff7;
+      color: #000;
+      padding: 10px 15px;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      box-shadow: 0 0 15px #00fff7;
+      cursor: pointer;
+      display: none;
+      z-index: 999;
+    }
+    @keyframes pulseGlow {
+      0% { box-shadow: 0 0 10px #00fff7; }
+      50% { box-shadow: 0 0 25px #00fff7, 0 0 40px #00fff7; }
+      100% { box-shadow: 0 0 10px #00fff7; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hafsa Noman</h1>
+    <p>Cybersecurity Enthusiast</p>
+    <p class="tagline">✨ "I didn’t ask for the attack. But I chose to fight back." ✨</p>
+  </header>
+
+  <section class="section">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Hafsa — a tech enthusiast diving deep into cybersecurity. My passion sparked when my own laptop was hijacked, and instead of panicking, I fixed it. From switching DNS to scanning malware and securing emails, I discovered my love for digital defense. It felt like solving real-life puzzles, and that’s when I knew this was the field for me.
+    </p>
+    <p>
+      🔗 <strong>LinkedIn:</strong> 
+      <a href="https://bit.ly/HafsaCyberLinkedIn" target="_blank">bit.ly/HafsaCyberLinkedIn</a>
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Resume</h2>
+    <p>📄 You can view or download my resume here:</p>
+    <a href="resume.pdf" class="glow-btn" target="_blank">📄 Download Resume</a>
+  </section>
+
+  <section class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Google Cybersecurity Certificate (In Progress)</li>
+      <li>Foundations of Cybersecurity – Completed</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Tools I Use</h2>
+    <ul>
+      <li>Malwarebytes</li>
+      <li>Brave Browser</li>
+      <li>Cloudflare DNS</li>
+      <li>VirusTotal</li>
+      <li>WHOIS Lookup</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Network Analysis</li>
+      <li>Incident Response</li>
+      <li>Information Assurance</li>
+      <li>Security Management</li>
+      <li>SIEM</li>
+      <li>Cyber Attacks</li>
+      <li>Security Controls</li>
+      <li>Cyber Risk</li>
+      <li>Ethical Standards & Conduct</li>
+      <li>Cybersecurity Strategy</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>🛡️ How I Fought a Laptop Hijack: My First Cybersecurity Battle</h2>
+    <p>
+      This was the moment that sparked my journey into cybersecurity. My laptop was hijacked — acting on its own, strange tabs opening, suspicious activities everywhere. But instead of panicking, I dove into action.
+    </p>
+    <p>
+      I changed my DNS settings to Cloudflare, scanned the system with Malwarebytes, switched to a privacy-focused browser (Brave), and double-checked my accounts for breaches using HaveIBeenPwned and email security tools. Slowly but surely, I locked everything down.
+    </p>
+    <h3>🛠️ Tools & Tactics Used:</h3>
+    <ul>
+      <li>Malwarebytes Full System Scan</li>
+      <li>Cloudflare DNS for secure browsing</li>
+      <li>Brave Browser (for privacy)</li>
+      <li>HaveIBeenPwned email check</li>
+      <li>Password reset across critical accounts</li>
+      <li>WHOIS lookup to understand attacker IP</li>
+    </ul>
+    <h3>🎯 Outcome:</h3>
+    <p>
+      I successfully restored my laptop, strengthened my digital hygiene, and more importantly — discovered my passion for cybersecurity. It felt like solving a mystery in real life, and that thrill never left me.
+    </p>
+  </section>
+
+  <!-- ✅ NEW: Security Audit Report Section -->
+  <section class="section">
+    <h2>🧾 Security Audit Report</h2>
+    <p>
+      I conducted an internal security audit using a Controls and Compliance Checklist as part of my cybersecurity training. This exercise allowed me to identify potential risks, assess security controls, and understand compliance needs in an organizational setup.
+    </p>
+    <p>
+      📎 <strong>Full Report:</strong> 
+      <a href="Security Audit.pdf" class="glow-btn" target="_blank">📎 View Full Report</a>
+    </p>
+  </section>
+
+  <!-- 💌 CONTACT FORM SECTION -->
+  <section class="section">
+    <h2>📩 Contact Me</h2>
+    <p>Have a question, opportunity, or just want to say hi? Fill out the form below and I’ll get back to you!</p>
+
+    <form action="https://formspree.io/f/meoknreb" method="POST" style="max-width: 600px;">
+      <label>
+        Your Name:<br />
+        <input type="text" name="name" required style="width: 100%; padding: 10px; margin: 8px 0;" />
+      </label><br />
+
+      <label>
+        Your Email:<br />
+        <input type="email" name="email" required style="width: 100%; padding: 10px; margin: 8px 0;" />
+      </label><br />
+
+      <label>
+        Your Message:<br />
+        <textarea name="message" rows="5" required style="width: 100%; padding: 10px; margin: 8px 0;"></textarea>
+      </label><br />
+
+      <button type="submit" class="glow-btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    🛡️ Built with 💻 by Hafsa Noman | All Rights Reserved © 2025
+  </footer>
+
+  <div id="backToTop" onclick="scrollToTop()">⬆</div>
+
+  <script>
+    const sections = document.querySelectorAll(".section");
+    const showSection = () => {
+      const triggerBottom = window.innerHeight * 0.85;
+      sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        if (sectionTop < triggerBottom) {
+          section.classList.add("visible");
+        }
+      });
+    };
+    window.addEventListener("scroll", showSection);
+    window.addEventListener("load", showSection);
+
+    const backToTop = document.getElementById("backToTop");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        backToTop.style.display = "block";
+      } else {
+        backToTop.style.display = "none";
+      }
+    });
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+  </script>
+
+</body>
+</html>
+<!-- ✅ END -->
+
